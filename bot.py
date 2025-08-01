@@ -243,7 +243,6 @@ time.sleep(10)
 os.system("clear")		
 print(a_bSa+ab)
 
-
 slow(S_aBs+ """
 ⌯  [ 1 ] - 3k    ⇦  
 ⌯  [ 2 ] - 5k    ⇦  
@@ -266,12 +265,14 @@ if (Abs == '4'):
 متابع يرجى الانتظار الى ان يتم الوصول الى طلبك
 الطلبات الان 40 طلب
 
-- Welcome dear, once again your request has been
+- print("""
+Welcome dear, once again your request has been
 selected to throw 10000 followers. Please wait
 until your request is reached. Orders are now
 40 requests.
 """)
-- Welcome dear, once again your request has been
+- print("""
+Welcome dear, once again your request has been
 selected to throw 10000 followers. Please wait
 until your request is reached. Orders are now
 200 requests.
@@ -283,7 +284,8 @@ if (Abs == '5'):
 متابع يرجى الانتظار الى ان يتم الوصول الى طلبك
 الطلبات الان 50 طلب
 
-- Welcome dear, once again your request has been
+- print("""
+Welcome dear, once again your request has been
 selected to throw 15000 followers. Please wait
 until your request is reached. Orders are now
 250 requests.
@@ -295,7 +297,8 @@ if (Abs == '6'):
 متابع يرجى الانتظار الى ان يتم الوصول الى طلبك
 الطلبات الان 60 طلب
 
-- Welcome dear, once again your request has been
+- print("""
+Welcome dear, once again your request has been
 selected to throw 20000 followers. Please wait
 until your request is reached. Orders are now
 2 requests.
@@ -307,7 +310,8 @@ if (Abs == '5'):
 متابع يرجى الانتظار الى ان يتم الوصول الى طلبك
 الطلبات الان 50 طلب ++
 
-- Welcome dear, once again your request has been
+- print("""
+Welcome dear, once again your request has been
 selected to throw 15000 followers. Please wait
 until your request is reached. Orders are now
 250 requests ++.
@@ -330,7 +334,7 @@ It will be processed within 24 hours. Thank you for your patience.""")
 متابع يرجى الانتظار الى ان يتم الوصول الى طلبك
 الطلبات الان 50 طلب ++
 
-- Welcome dear, once again your request has been
+- print("""Welcome dear, once again your request has been
 selected to throw 15000 followers. Please wait
 until your request is reached. Orders are now
 250 requests ++. """)
@@ -340,7 +344,8 @@ if (Abs == '6'):
 متابع يرجى الانتظار الى ان يتم الوصول الى طلبك
 الطلبات الان 60 طلب ++
 
-- Welcome dear, once again your request has been
+- print("""
+Welcome dear, once again your request has been
 selected to throw 20000 followers. Please wait
 until your request is reached. Orders are now
 300 requests ++. """)
