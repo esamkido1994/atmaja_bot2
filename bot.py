@@ -317,17 +317,15 @@ if (Abs == '6'):
     print(Ba_bS + """
 - اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 20000 
 متابع يرجى الانتظار الى ان يتم الوصول الى طلبك
-الطلبات الان 60 طلب ++
-
-- Welcome dear, once again your request has been
+elif Abs == '4':
+    await message.reply("""- Welcome dear, once again your request has been
 selected to throw 20000 followers. Please wait
 until your request is reached. Orders are now
-2 requests ++.
-""")
-until your request is reached. Orders are now
-200 requests ++. """)
-
-if (Abs == '5'):
+200 requests.""")
+    
+elif Abs == '5':
+    await message.reply("""Your request has been successfully registered.
+It will be processed within 24 hours. Thank you for your patience.""")
 	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 15000 
 متابع يرجى الانتظار الى ان يتم الوصول الى طلبك
 الطلبات الان 50 طلب ++
