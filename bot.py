@@ -3,7 +3,14 @@ import subprocess
 import sqlite3
 import telebot
 from telebot import types
-from config import *
+import os
+
+TOKEN = os.environ.get('TOKEN')
+ADMIN = int(os.environ.get('ADMIN'))
+CHANNEL_ID = os.environ.get('CHANNEL_ID')
+GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
+REPO_NAME = os.environ.get('REPO_NAME')
+BRANCH_NAME = os.environ.get('BRANCH_NAME')
 import base64
 import os
 import uuid
