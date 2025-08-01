@@ -4,20 +4,48 @@ import sqlite3
 import telebot
 from telebot import types
 import os
+import base64
+import uuid
+import requests
+import time
+import string
+import random
+from flask import Flask
+from threading import Thread
 
+# قراءة المتغيرات البيئية
 TOKEN = os.environ.get('TOKEN')
 ADMIN = int(os.environ.get('ADMIN'))
 CHANNEL_ID = os.environ.get('CHANNEL_ID')
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
 REPO_NAME = os.environ.get('REPO_NAME')
 BRANCH_NAME = os.environ.get('BRANCH_NAME')
-import base64
-import os
-import uuid
-import requests
-import time
-import string
-import random
+
+# إعداد البوت
+app = Flask(__name__)
+bot = telebot.TeleBot(TOKEN)
+
+@app.route('/')
+def index():
+    return "Bot is running on Render."
+
+def run():
+    app.run(host='0.0.0.0', port=8080)
+
+def keep_alive():
+    t = Thread(target=run)
+    t.start()
+
+keep_alive()
+
+# أمر بدء بسيط للتجربة
+@bot.message_handler(commands=['start'])
+def send_welcome(message):
+    bot.reply_to(message, "مرحبًا بك! البوت يعمل على Render ✅")
+
+# ضع هنا بقية الأوامر والدوال الخاصة بك
+
+bot.infinity_polling()
 
 
 bot = telebot.TeleBot(TOKEN)
