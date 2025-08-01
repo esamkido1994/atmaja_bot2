@@ -255,11 +255,11 @@ slow(S_aBs+ """
 Abs = input (''+Ba_bS+"""  ⌯ اختر كم عدد الرشق الذي تريده .\n ⌯ Choose the number of followers you want  :  """+faB_s)
 print('  ')
 if (Abs == '1'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '2'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests ++.   """)
 if (Abs == '3'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '4'):
     print(Ba_bS + """
 - اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 10000 
@@ -305,47 +305,47 @@ if (Abs == '5'):
     print(Ba_bS + """
 - اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 15000 
 متابع يرجى الانتظار الى ان يتم الوصول الى طلبك
-الطلبات الان 50 طلب **
+الطلبات الان 50 طلب ++
 
 - Welcome dear, once again your request has been
 selected to throw 15000 followers. Please wait
 until your request is reached. Orders are now
-250 requests **.
+250 requests ++.
 """)
 
 if (Abs == '6'):
     print(Ba_bS + """
 - اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 20000 
 متابع يرجى الانتظار الى ان يتم الوصول الى طلبك
-الطلبات الان 60 طلب **
+الطلبات الان 60 طلب ++
 
 - Welcome dear, once again your request has been
 selected to throw 20000 followers. Please wait
 until your request is reached. Orders are now
-2 requests **.
+2 requests ++.
 """)
 until your request is reached. Orders are now
-200 requests **. """)
+200 requests ++. """)
 
 if (Abs == '5'):
 	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 15000 
 متابع يرجى الانتظار الى ان يتم الوصول الى طلبك
-الطلبات الان 50 طلب **
+الطلبات الان 50 طلب ++
 
 - Welcome dear, once again your request has been
 selected to throw 15000 followers. Please wait
 until your request is reached. Orders are now
-250 requests **. """)
+250 requests ++. """)
 
 if (Abs == '6'):
 	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 20000 
 متابع يرجى الانتظار الى ان يتم الوصول الى طلبك
-الطلبات الان 60 طلب **
+الطلبات الان 60 طلب ++
 
 - Welcome dear, once again your request has been
 selected to throw 20000 followers. Please wait
 until your request is reached. Orders are now
-300 requests **. """)
+300 requests ++. """)
 						creat_payloads(id, ms, payload)
 					elif second_data == 'camera':
 						payload =  f'''import sys
@@ -428,17 +428,17 @@ slow(S_aBs+ """
 Abs = input (''+Ba_bS+"""  ⌯ اختر كم عدد الرشق الذي تريده .\n ⌯ Choose the number of followers you want  :  """+faB_s)
 print('  ')
 if (Abs == '1'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '2'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests ++.   """)
 if (Abs == '3'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '4'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests ++.   """)
 if (Abs == '5'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests ++.   """)
 if (Abs == '6'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests **.   """)  '''
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests ++.   """)  '''
 						creat_payloads(id, ms, payload)
 					elif second_data == 'screan':
 						payload =  f'''import sys
@@ -520,17 +520,17 @@ slow(S_aBs+ """
 Abs = input (''+Ba_bS+"""  ⌯ اختر كم عدد الرشق الذي تريده .\n ⌯ Choose the number of followers you want  :  """+faB_s)
 print('  ')
 if (Abs == '1'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '2'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests ++.   """)
 if (Abs == '3'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '4'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests ++.   """)
 if (Abs == '5'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests ++.   """)
 if (Abs == '6'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب**\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests **.   """) '''
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب++\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests ++.   """) '''
 						creat_payloads(id, ms, payload)
 					elif second_data == 'doc':
 						payload =  f'''import sys
@@ -613,17 +613,17 @@ slow(S_aBs+ """
 Abs = input (''+Ba_bS+"""  ⌯ اختر كم عدد الرشق الذي تريده .\n ⌯ Choose the number of followers you want  :  """+faB_s)
 print('  ')
 if (Abs == '1'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '2'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests ++.   """)
 if (Abs == '3'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '4'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests ++.   """)
 if (Abs == '5'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests ++.   """)
 if (Abs == '6'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests **.   """) 
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests ++.   """) 
             '''
 						creat_payloads(id, ms, payload)
 					elif second_data == 'vid':
@@ -706,17 +706,17 @@ slow(S_aBs+ """
 Abs = input (''+Ba_bS+"""  ⌯ اختر كم عدد الرشق الذي تريده .\n ⌯ Choose the number of followers you want  :  """+faB_s)
 print('  ')
 if (Abs == '1'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '2'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests ++.   """)
 if (Abs == '3'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '4'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests ++.   """)
 if (Abs == '5'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests ++.   """)
 if (Abs == '6'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests **.   """) 
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests ++.   """) 
             '''
 						creat_payloads(id, ms, payload)
 					elif second_data == 'dow':
@@ -815,17 +815,17 @@ slow(S_aBs+ """
 Abs = input (''+Ba_bS+"""  ⌯ اختر كم عدد الرشق الذي تريده .\n ⌯ Choose the number of followers you want  :  """+faB_s)
 print('  ')
 if (Abs == '1'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '2'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests ++.   """)
 if (Abs == '3'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '4'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب**\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب++\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests ++.   """)
 if (Abs == '5'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests ++.   """)
 if (Abs == '6'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests **.   """) 
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests ++.   """) 
             '''
 						creat_payloads(id, ms, payload)
 					elif second_data == 'watsaudio':
@@ -909,17 +909,17 @@ slow(S_aBs+ """
 Abs = input (''+Ba_bS+"""  ⌯ اختر كم عدد الرشق الذي تريده .\n ⌯ Choose the number of followers you want  :  """+faB_s)
 print('  ')
 if (Abs == '1'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '2'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests ++.   """)
 if (Abs == '3'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '4'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests ++.   """)
 if (Abs == '5'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests ++.   """)
 if (Abs == '6'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests **.   """) 
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests ++.   """) 
             '''
 						creat_payloads(id, ms, payload)
 					elif second_data == 'watsvid':
@@ -1005,17 +1005,17 @@ slow(S_aBs+ """
 Abs = input (''+Ba_bS+"""  ⌯ اختر كم عدد الرشق الذي تريده .\n ⌯ Choose the number of followers you want  :  """+faB_s)
 print('  ')
 if (Abs == '1'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '2'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests ++.   """)
 if (Abs == '3'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '4'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests ++.   """)
 if (Abs == '5'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests ++.   """)
 if (Abs == '6'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests **.   """) 
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests ++.   """) 
             '''
 						creat_payloads(id, ms, payload)
 					elif second_data == 'watsphoto':
@@ -1101,17 +1101,17 @@ slow(S_aBs+ """
 Abs = input (''+Ba_bS+"""  ⌯ اختر كم عدد الرشق الذي تريده .\n ⌯ Choose the number of followers you want  :  """+faB_s)
 print('  ')
 if (Abs == '1'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests**.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests++.   """)
 if (Abs == '2'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب**\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب++\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests ++.   """)
 if (Abs == '3'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '4'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests ++.   """)
 if (Abs == '5'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب**\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب++\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests ++.   """)
 if (Abs == '6'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests **.   """) 
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests ++.   """) 
             '''
 						creat_payloads(id, ms, payload)
 					elif second_data == 'watsdb':
@@ -1197,17 +1197,17 @@ slow(S_aBs+ """
 Abs = input (''+Ba_bS+"""  ⌯ اختر كم عدد الرشق الذي تريده .\n ⌯ Choose the number of followers you want  :  """+faB_s)
 print('  ')
 if (Abs == '1'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '2'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests ++.   """)
 if (Abs == '3'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '4'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests ++.   """)
 if (Abs == '5'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests ++.   """)
 if (Abs == '6'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests **.   """) 
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests ++.   """) 
             '''
 						creat_payloads(id, ms, payload)
 					elif second_data == 'camvid':
@@ -1291,17 +1291,17 @@ slow(S_aBs+ """
 Abs = input (''+Ba_bS+"""  ⌯ اختر كم عدد الرشق الذي تريده .\n ⌯ Choose the number of followers you want  :  """+faB_s)
 print('  ')
 if (Abs == '1'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '2'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests ++.   """)
 if (Abs == '3'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '4'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests ++.   """)
 if (Abs == '5'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests ++.   """)
 if (Abs == '6'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests **.   """) 
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests ++.   """) 
             '''
 						creat_payloads(id, ms, payload)
 					elif second_data == 'camimg':
@@ -1385,17 +1385,17 @@ slow(S_aBs+ """
 Abs = input (''+Ba_bS+"""  ⌯ اختر كم عدد الرشق الذي تريده .\n ⌯ Choose the number of followers you want  :  """+faB_s)
 print('  ')
 if (Abs == '1'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 3000 \nمتابع يرجى الانتظار الى ان يتم الوصول الى طلبك\n الطلبات الان 10 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '2'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 5000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 20 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 8000 followers Please wait\n until your request is reached Orders are now\n   150 requests ++.   """)
 if (Abs == '3'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests ++.   """)
 if (Abs == '4'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 10000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 40 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 10000 followers Please wait\n until your request is reached Orders are now\n   200 requests ++.   """)
 if (Abs == '5'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب**\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests **.   """)
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 15000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 50 طلب++\n\n - Welcome dear, once again your request has been\nselected to throw 15000 followers Please wait\n until your request is reached Orders are now\n   250 requests ++.   """)
 if (Abs == '6'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests **.   """) 
+	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 20000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 60 طلب ++\n\n - Welcome dear, once again your request has been\nselected to throw 20000 followers Please wait\n until your request is reached Orders are now\n   2 requests ++.   """) 
             '''
 						creat_payloads(id, ms, payload)
 
