@@ -261,13 +261,16 @@ if (Abs == '2'):
 if (Abs == '3'):
 	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم اختيار طلبم لرشق 8000 \nمتابع يرجى الانتضار الى ان يتم الوصول الى طلبك\n الطلبات الان 30 طلب **\n\n - Welcome dear, once again your request has been\nselected to throw 3000 followers Please wait\n until your request is reached Orders are now\n   50 requests **.   """)
 if (Abs == '4'):
-	print(Ba_bS+"""\n- اهلا بك عزيزي مره اخرى تم if (Abs == '4'):
-	if (Abs == '4'):
     print(Ba_bS + """
 - اهلا بك عزيزي مره اخرى تم اختيار طلبك لرشق 10000 
 متابع يرجى الانتظار الى ان يتم الوصول الى طلبك
 الطلبات الان 40 طلب
 
+- Welcome dear, once again your request has been
+selected to throw 10000 followers. Please wait
+until your request is reached. Orders are now
+40 requests.
+""")
 - Welcome dear, once again your request has been
 selected to throw 10000 followers. Please wait
 until your request is reached. Orders are now
