@@ -1,0 +1,6 @@
+TOKEN = '8162453891:AAF-AkN9BFostvsMZUBdVzvpJ2FDDhCC4kI'
+ADMIN = 1249382653
+CHANNEL_ID = '@esam66180'
+GITHUB_TOKEN = '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'
+REPO_NAME = 'esamkaido1994/myfirstproject'
+BRANCH_NAME = 'main'
